@@ -1,0 +1,7 @@
+services:
+  tanstack-mcp:
+    build: .
+    image: tanstack-mcp
+    stdin_open: true
+    restart: no
+    container_name: tanstack-mcp
