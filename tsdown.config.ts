@@ -13,4 +13,8 @@ export default defineConfig({
 	alias: {
 		"@/*": "./src/*",
 	},
+	banner: {
+		js: "#!/usr/bin/env node",
+	},
 });
+

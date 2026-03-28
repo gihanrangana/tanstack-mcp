@@ -32,9 +32,24 @@ An official-grade [Model Context Protocol (MCP)](https://modelcontextprotocol.io
 
 ## 💻 Configuration
 
-Requirements: **Docker Desktop** must be running in the background.
+You can run the server using **npx** or **Docker**.
 
-Add the following to your MCP settings file (Claude Desktop, Cursor, Cline, etc.):
+### Method 1: NPX (Recommended)
+Add this to your MCP settings file:
+
+```json
+{
+  "mcpServers": {
+    "tanstack": {
+      "command": "npx",
+      "args": ["-y", "tanstack-mcp"]
+    }
+  }
+}
+```
+
+### Method 2: Docker
+Requirements: **Docker Desktop** must be running.
 
 ```json
 {
@@ -51,6 +66,7 @@ Add the following to your MCP settings file (Claude Desktop, Cursor, Cline, etc.
   }
 }
 ```
+
 
 ---
 
