@@ -42,8 +42,9 @@ Add this to your MCP settings file:
   "mcpServers": {
     "tanstack": {
       "command": "npx",
-      "args": ["-y", "tanstack-mcp"]
+      "args": ["-y", "@gihan92/tanstack-mcp"]
     }
+
   }
 }
 ```
